@@ -1,0 +1,22 @@
+input{
+    width: 200px;
+}
+
+#in_1:focus {
+    color:green;
+    font-weight: bold;
+    outline: none;
+}
+
+#in_2:focus {
+     box-shadow: 0px 0px 4px orange; 
+     /* 1-смещение по x, 2-смещение по y, 
+     3- радиус размытия, 4-растяжение, 5-цвет*/
+	outline-color: orange;
+	color: orange;
+
+}
+
+#in_3:focus {
+    width: 400px;
+}

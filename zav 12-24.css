@@ -1,0 +1,70 @@
+.ul_12 li:first-child{
+    color: red;
+}
+
+.ul_12 li:last-child{
+    color: green;
+
+}
+
+.ul_13 li:nth-child(3){
+    color:red;
+}
+
+.ul_14 li:nth-child(odd){
+    color:red;
+}
+
+.ul_14 li:nth-child(even){
+    color: green;
+}
+
+.ol_15 li:nth-child(3n){
+    color: red;
+}
+
+.ol_16 li:nth-last-child(2){
+    color: red;
+}
+
+.ul_17 li:first-child{
+    color:red;
+}
+
+input:checked + label{
+    color: red;
+}
+
+.zav_19:enabled {
+    border: 1px solid green;
+    box-shadow: 0px 0px 3px green;
+}
+
+.zav_19:disabled {
+    border: 1px solid red;
+    box-shadow: 0px 0px 3px red;
+
+}
+
+.zav_20 li {
+    border: 1px solid red;
+    width: 80px;
+    padding: 2px;
+}
+
+li:empty {
+    border: 1px solid blue;
+}
+
+p:not(.test){
+    color:red;
+}
+
+.ul_22 li:not(:first-child) {
+    color :red;
+}
+
+.ul_23 li:not(:nth-child(3)) {
+    color :red;
+}
+
